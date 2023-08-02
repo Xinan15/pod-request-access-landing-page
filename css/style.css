@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* The double dashes "--" is used to define custom properties or variables in CSS.  */
 html {
   --color-green: hsla(157, 74%, 62%, 1);
   --color-light-green: hsla(157, 100%, 85%, 1);
@@ -30,6 +31,11 @@ body {
   justify-content: flex-end;
 }
 
+/* The body::after is a pseudo-element that is used to insert content after the content of the selected element. */
+/* The content "" will appear after all other content within the body of the HTML document. */
+
+/* bottom: edge of the pseudo-element 8% of the viewport height up from the bottom edge of the body element. */
+/* right: 0;: This positions the right edge of the pseudo-element at the right edge of the body element */
 body::after {
   content: "";
   background: url(../img/desktop/bg-pattern-dots.svg) no-repeat;
